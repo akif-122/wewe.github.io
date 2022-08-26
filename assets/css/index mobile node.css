@@ -1,0 +1,209 @@
+.mobileNode-content{
+	margin: 40px 0;
+}
+.boxtop-icon{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+
+}
+.boxtop-icon i{
+	font-size: 35px;
+	color: #999;
+}
+.mobileNode-content .mobileNode{
+	background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 13px -5px #b7b7b7;
+    position: relative;
+    margin-bottom: 22px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.mobileNode-content .mobileNode h2{
+	font-size: 22px;
+	color: #327AB6;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.mobileNode-content .mobileNode  span{
+	font-size: 14px;
+
+}
+.mobileNode-content .mobileNode .status{
+	text-transform: uppercase;
+	padding: 3px 7px;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 3px;
+	color: #fff;
+	background: #777777;
+	margin: 10px;
+}
+
+.mobileNode-content .mobileNode .mobileNode-text{
+	margin: 20px 0;
+}
+
+.mobileNode-content .mobileNode .mobileNode-text p{
+	font-size: 17px;
+	font-weight: 300;
+	margin-bottom: 5px;
+	color: #999;
+}
+
+.mobileNode-content .mobileNode .mobileNode-text h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: #327AB6;
+}
+
+.mobilenode-btm-text p{
+	font-size: 14px;
+	color: grey;
+}
+.mobilenode-btm-text p input{
+	margin-left: 20px;
+}
+.mobilenode-btm-text p label{
+	font-size: 15px;
+	color: #327AB6;
+	cursor: pointer;
+}
+
+.mobilenode-pool{
+	background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 13px -5px #b7b7b7;
+    position: relative;
+    margin-bottom: 22px;
+    padding: 10px;
+}
+.mobilenode-pool h2{
+	color: #327AB6;
+	font-weight: 400px;
+	font-size: 24px;
+	margin-bottom: 20px;
+
+
+}
+
+.mobilenode-pool .circle-progress h1{
+	font-size: 20px;
+	color: grey;
+	text-align: center;
+}
+.pool-content .pool-text{
+	margin-bottom: 20px;
+}
+.pool-content .pool-text p{
+	font-size: 13px;
+	color: grey;
+	font-weight: 300;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.pool-content .pool-text b{
+	font-size: 16px;
+	font-weight: bold;
+	color: #327AB6;
+	margin-left: 20px;
+}
+
+
+.mobileNode-wallet{
+		background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 13px -5px #b7b7b7;
+    position: relative;
+    margin-bottom: 22px;
+    padding: 10px;
+}
+
+.mobileNode-wallet .mobileNode-wallet-header h4{
+	font-size: 15px;
+	font-weight: 300;
+	color: grey;
+	margin: 10px 0;
+}
+
+.mobileNode-wallet .mobileNode-wallet-header  h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: #327AB6;
+	margin-bottom: 10px;
+}
+.mobileNode-wallet .mobileNode-wallet-header span{
+	color: #999;
+	font-size: 14px;
+}
+
+.mobilenode-content{
+	border-top: 1px solid lightgrey;
+	padding: 10px 0;
+	margin-top: 40px;
+}
+.mobilenode-content p{
+	font-size: 13px;
+	color: #333;
+}
+.mobilenode-content a{
+	font-size: 14px;
+}
+
+
+.mobileNode-history{
+	margin: 50px;
+	min-height: 300px;
+	background: #fff;
+    margin: 6px 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 16px 0 rgb(0 0 0 / 8%);
+    position: relative;
+}
+
+.mobileNode-history .mobile-history-header{
+
+    padding: 4px 10px;
+    box-shadow: 0 6px 6px -6px rgb(0 0 0 / 31%);
+    position: relative;
+}
+.mobileNode-history .mobile-history-header h2{
+	font-size: 17px;
+	font-weight: 300;
+	color: grey;
+}
+
+.mobileNode-history .mobile-history-header a{
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 13px;
+	color: grey;
+	background: ;
+	display: inline-block;
+}
+
+.mobileNode-history .mobile-history-header a:hover{
+	background: #F3F3F3;
+}
+
+.mobile-history-content{
+	margin: 10px;
+	padding: 30px 0;
+}
+
+.mobile-history-content p{
+	font-size: 14px;
+	color: #666;
+}
+
+.mobile-history-content a{
+	font-size: 13px;
+	display: inline-block;
+	padding: 7px 15px;
+	color: grey;
+	border: 1px solid grey;
+}

@@ -1,0 +1,71 @@
+.calendar{
+	background-image: url(../img/shape_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.calendar-header{
+	padding: 20px;
+}
+
+.calendar-header .calendar-left{
+	margin-right: 10px;
+	margin-bottom: 20px;
+	background: rgba(255,255,255,0.3);
+
+}
+
+.calendar-header .calendar-left h1{
+	    font-weight: 600;
+    text-transform: uppercase;
+    color: #0c6e9f;
+    margin: 0;
+    padding-bottom: 6px;
+    font-size: 24px
+}
+.calendar-header .calendar-left  p{
+	font-size: 14px;
+	color: grey;
+}
+
+.calendar-header .calendar-right a{
+	background: #fff;
+    white-space: nowrap;
+    padding: 8px 22px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px -9px #000;
+    cursor: pointer;
+}
+.calendar-header .calendar-right a .circle{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #3F51B5;
+	box-shadow: 0 0 0 2px #DEDEDE;
+	margin-right: 10px;
+
+}
+
+.calendar-header .calendar-right a span{
+	font-size: 14px;
+	color: grey;
+}
+
+
+.calender-container{
+	max-width: 850px;
+	margin: 50px auto;
+	padding: 30px 10px;
+}
+
+
+
+
+.calender-container iframe{
+	    max-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0 0 32px 0 #000;
+    border: 2px solid #fff !important;
+    border-radius: 6px;
+}

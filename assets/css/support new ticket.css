@@ -1,0 +1,102 @@
+.wallet-header{
+	padding: 20px  10px 5px 10px ;
+	border-bottom: 1px solid lightgrey;
+}
+
+.wallet-header h3{
+	font-size: 20px;
+	font-weight: 200;
+	margin: 10px;
+} 
+
+.wallet-header .wallet-right a{
+	padding: 4px 20px;
+	color: grey;
+	font-size: 15px;
+	border: 1px solid lightgrey;
+}
+
+
+
+.new-ticket-container{
+	padding: 30px;
+	text-align: center;
+}
+.new-ticket-container .new-ticket-img{
+	max-width: 400px;
+	margin: 20px auto;
+}
+ 
+.new-ticket-container .new-ticket-img img{
+	width: 100%;
+}
+
+.new-ticket-text{
+	margin: auto;
+}
+
+
+.new-ticket-text h1{
+
+    margin: 0;
+    color: #002c4f;
+    font-weight: 600;
+    text-shadow: 0 0 3px rgb(0 0 0 / 43%);
+    margin-top: 22px;
+
+}
+.new-ticket-text p{
+	font-weight: 300;
+    max-width: 80%;
+    margin: 20px auto;
+    font-size: 14px;
+    color: grey;
+}
+
+
+.new-ticket-text a{
+	display: inline-block;
+	    text-transform: uppercase;
+    font-weight: 600;
+    padding: 6px 16px;
+    background: rgb(255,255,255);
+    border: 1px solid rgb(0,44,79);
+    color: #002c4f;
+    font-size: 14px;
+}
+
+.new-ticket-text a:hover {
+    background: rgb(0,44,79);
+    color: #ffffff;
+    border-color: #002c4f;
+}
+
+
+
+
+@media screen and (max-width: 575px){
+.wallet-header h3{
+	font-size: 16px;
+	font-weight: 200;
+	margin: 10px;
+} 
+
+
+.new-ticket-text h1 {
+	font-size: 16px;
+}
+
+
+
+.new-ticket-text p{
+	max-width: 100%;
+	font-size: 13px;
+}
+
+
+.new-ticket-container{
+	padding: 30px 10px;
+	text-align: center;
+}
+
+}

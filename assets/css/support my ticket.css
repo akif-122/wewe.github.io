@@ -1,0 +1,73 @@
+.wallet-header{
+	padding: 20px  10px 5px 10px ;
+	border-bottom: 1px solid lightgrey;
+}
+
+.wallet-header h3{
+	font-size: 20px;
+	font-weight: 200;
+	margin: 10px;
+	text-transform: uppercase;
+} 
+
+.wallet-header .wallet-right a{
+	padding: 4px 20px;
+	color: grey;
+	font-size: 15px;
+	border: 1px solid lightgrey;
+}
+
+
+.my-ticket-container{
+	padding: 20px;
+}
+
+.my-ticket-container .my-ticket-btns{
+	border-bottom: 1px solid lightgrey;
+}
+
+.my-ticket-container .my-ticket-btns a{
+	background: #49b6ec;
+    color: #fff;
+    border-color: #0c6e9f;
+    font-size: 13px;
+    padding: 7px 15px;
+    border: 1px solid #888;
+    border-radius: 0;
+    text-decoration: none !important;
+    cursor: pointer;
+    margin: 5px;
+
+}
+.my-ticket-container .my-ticket-btns a:hover{
+	background: #339ACE;
+}
+
+
+.my-ticket-text{
+	margin: 50px 0;
+}
+
+
+.my-ticket-text i{
+	font-size: 20px;
+	color: lightgrey;
+	display: inline-block;
+	margin: 20px;
+}
+
+.my-ticket-text p{
+	font-size: 13px;
+	color: grey;
+}
+
+@media screen and (max-width: 575px){
+.wallet-header h3{
+	font-size: 16px;
+	font-weight: 200;
+	margin: 10px;
+
+} 
+
+
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wewe</title>
+
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+
+	<!-- FONTAWESOME  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome/css/all.css"> -->
+
+
+	<!-- CUSTOM CSS  -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/Support my ticket.css">
+
+	<style>
+
+</style>
+
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<!-- ADDRESS BOOK SIDE -->
+		<div class="address-book ">
+
+			<div class="address-book-header d-flex justify-content-between align-items-center">
+				<div class="">
+					<h1><i class="fa fa-address-book mr-2"></i> My address Book</h1>
+				</div>
+
+				<div class="address-close">
+					<i class="fa fa-times"></i>
+				</div>
+
+			</div>
+
+			<div class="address-book-search">
+
+				<div class="book-search-container">
+					<i class="fa fa-search"></i>
+					<input type="search" placeholder="Search in your list..."> 
+				</div>
+
+				<div class="book-create-list d-flex justify-content-between align-items-center">
+					<h4>Create List</h4>
+
+					<div>
+						<a href="">Create <i class="fa fa-plus"></i></a>
+					</div>
+				</div>
+
+
+			</div>
+
+
+
+			<div class="list-content text-center">
+				<i class="fa fa-address-book-o"></i>
+				<p>You have no contacts in your lists.</p>
+			</div>
+
+		</div>
+
+		<!-- ADDRESS BOOK SIDE  END-->
+		<!-- TOP BAR START -->
+		<section class="top-bar">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+
+				<button class=" navbar-toggler toggle">
+					<span class="opener fa fa-bars"></span>
+					<span class="closer fa fa-times d-none"></span>
+				</button>
+				<a href="" class="navbar-brand mx-auto">
+					<img src="assets/img/logo.png" alt="" />
+				</a>
+
+				<div class="top-text-container d-lg-flex flex-nowrap mx-auto d-none">
+
+					<div class="top-text">
+						<span>S.Time</span>
+						<h5 class="">14:50</h5>
+					</div>
+
+					<div class="top-text">
+						<span>WEWE/BTC</span>
+						<h5 class="">0.00003051 BTC</h5>
+					</div>
+
+					<div class="top-text">
+						<span>WEWE/EURO</span>
+						<h5 class="">€1.30</h5>
+					</div>
+
+					<div class="top-text">
+						<span>BTC/EURO</span>
+						<h5 class="">€42568.29</h5>
+					</div>
+
+					<div class="top-text">
+						<span>WEWEX/EURO</span>
+						<h5 class="">1</h5>
+					</div>
+
+				</div>
+
+				<div class="ml-auto top-right d-none d-lg-flex">
+					<ul class="navbar-nav ">
+						<li>
+							<a href=""><i class="fa fa-link"></i></a>
+
+						</li>
+						<li><a href=""><i class="fa fa-telegram"></i></a></li>
+						<li><a href=""><i class="fa fa-address-book"></i></a></li>
+						<li><a href=""><i class="fa fa-bell"></i></a></li>
+
+						<li class="user-active">
+							<a href="#" class=" d-flex">
+									<div  class="mr-2 user">
+										<i class="fa fa-user"></i>
+									</div>
+									<div>
+										<span>Name</span><br />
+										<span>lais</span>
+									</div>
+										
+								
+							</a>
+
+							<div class="user-setting">
+									<p>Your rank : <b>#0</b></p>
+								<ul>
+									<li><a href=""><i class="fa fa-cog mr-2"></i> Settings</a></li>
+									<li><a href=""><i class="fa fa-sign-out mr-2"></i> Sign Out</a></li>
+									
+
+								</ul>
+							</div>
+
+
+
+						</li>
+					</ul>
+				</div>
+
+
+
+
+			</nav>
+		</section>
+		<!-- TOP BAR START -->
+
+
+
+
+
+		<!-- CONTENT SECTION START -->
+		<section class="content">
+				
+			<!-- SIDE BAR SECTION START -->
+			<section class="sidebar">
+
+				<div class="user-detail-side d-lg-none">
+					<div class="user-side-text d-flex justify-content-between align-items-center  px-3">
+						<div class="userleft">
+							<p>Name</p>
+							<span>lsioae</span>
+						</div>
+
+						<div class="user-right">
+							<i class="fa fa-angle-down"></i>
+						</div>
+
+
+					</div>
+					<div class="user-setting-side" >
+						<ul class="list-unstyled d-flex justify-content-between">
+							<li><a href=""><i class="fa fa-link"></i></a></li>
+							<li><a href=""><i class="fa fa-cog"></i></a></li>
+							<li><a href="" class="d-flex align-items-center"><i class="fa fa-sign-out mr-3"></i> <span>Sign Out</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="navbar p-0">
+					<div class=" w-100 p-0">
+						<ul class=" navbar-nav m-0">
+							<li><a href="index.html" class="active"><i class="fa fa-home mr-2"></i> Dashboard</a></li>
+							<li><a href="wallet.html"><i class="fa fa-usd mr-2"></i> my wallet</a></li>
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-braille mr-3"></i> lauchpad <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a class="d-block" href="launch project.html">Project</a>
+									<a class="d-block" href="launch history.html">History</a>
+								</div>
+							</li>
+
+							<li><a href="billboard.html"><i class="fa fa-line-chart mr-2"></i> billboard</a></li>
+							<li><a href="#" class="address-opener"><i class="fa fa-address-book mr-2"></i> Address Book</a></li>
+
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Parner</span>	
+							</div>
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-cloud mr-3"></i> Cloud Minting <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="cloud dashboard.html">Dashboard</a>
+									<a href="cloud purchase.html">purchase</a>
+									<a href="cloud history.html">Product Hisory</a>
+								</div>
+							</li>
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Shop</span>	
+							</div>
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-shopping-cart mr-3"></i> My Shop<i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="shop product.html">Products</a>
+									<a href="shop purchase history.html">purchase history</a>
+									<a href="shop pay.html">pay dues</a>
+									<a href="shop pin.html">my pin codes</a>
+									<a href="shop sub.html">my subscriptions</a>
+									<a href="shop member fee.html">member activation fees</a>
+									<a href="shop invoice.html">my invoice</a>
+								</div>
+							</li>
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Your community</span>	
+							</div>
+
+							<li>
+								<a href="community.html"  ><i class="fa fa-users mr-3"></i> Community </a>
+							</li>
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Report</span>	
+							</div>
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-th mr-3"></i> My business <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="business history.html">History</a>
+									
+								</div>
+							</li>
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Other</span>	
+							</div>
+
+							<li><a href="callendar.html"><i class="fa fa-calendar mr-2"></i> Training Calendar</a></li>
+
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-question-circle-o mr-3"></i> Support <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="support new ticket.html">New ticket</a>
+									<a href="support my ticket.html">My Tickets</a>
+									
+								</div>
+							</li>	
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-bar-chart mr-3"></i> Marketing Tools <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="marketing document.html">Documents</a>
+									<a href="marketing rank rule.html">rank rules</a>
+									<a href="marketing refferal.html">mobile node Refferal</a>
+									
+								</div>
+							</li>
+
+							<li><a href="news.html"><i class="fa fa-newspaper-o mr-2"></i> News</a></li>
+
+
+						</ul>
+
+
+					</div>
+
+					
+
+
+				</div>
+			</section>
+			<!-- SIDE BAR SECTION END -->
+
+
+			<!-- MAIN-CONTENT SECTION START -->
+			<section class="main-content " 	>
+
+				<div class="wallet-header d-flex justify-content-between align-items-center">
+					<div class="wallet-header-left">
+						<h3>My ticket</h3>
+					</div>
+
+					<div class="wallet-right">
+						<a href=""><i class="fa fa-question"></i></a>
+					</div>
+				</div>
+
+				<div class="my-ticket-container">
+					<div class="my-ticket-btns d-flex justify-content-end">
+						<a href="">Create new ticket</a>
+					</div>
+				</div>
+
+
+				<div class="my-ticket-text text-center">
+					<div>
+						<i class="fa fa-asterisk"></i>
+					</div>
+
+					<p>You have no tickets.</p>
+				</div>
+
+			
+				
+
+				
+
+				
+			</section>
+			<!-- MAIN-CONTENT SECTION END -->
+
+		</section>
+		<!-- CONTENT SECTION END -->
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<!-- JQUERY  -->
+	<script type="text/javascript" src="assets/vendor/bootstrap/js/jquery.js"></script>
+	<!-- BOOTSTRAP -->
+	<script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="assets/js/app.js"></script>
+
+
+	<!-- Chart code -->
+<script>
+
+</script>
+
+</body>
+</html>

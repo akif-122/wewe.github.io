@@ -1,0 +1,260 @@
+.wallet-header{
+	padding: 20px  10px 5px 10px ;
+	border-bottom: 1px solid lightgrey;
+}
+
+.wallet-header h3{
+	font-size: 20px;
+	font-weight: 200;
+} 
+
+.wallet-header .wallet-right a{
+	padding: 4px 20px;
+	color: grey;
+	font-size: 15px;
+	border: 1px solid grey;
+}
+
+
+
+/*
+===========================================
+	WALLET HISTORY START
+===========================================
+*/
+.wallet-history{
+	margin-top: 30px;
+}
+.wallet-history h2:first-child{
+	font-size: 24px;
+	color: grey;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.wallet-history-nav{
+	padding:  10px;
+	background: #F5F7F9;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+.wallet-history-nav ul{
+	border: none;
+}
+.wallet-history-nav ul li a{
+	color: grey;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 10px;
+	display: inline-block;
+}
+.wallet-history-nav ul li a.active{
+	color: #333;
+	border-bottom: 1px solid #333;
+}
+
+
+
+
+
+
+
+
+.marketing-rank-container{
+	max-width: 850px;
+	margin: 30px auto;
+}
+
+
+.marketing-rank-container h1{
+	font-size: 28px;
+	font-weight: 500;
+	color: grey;
+	margin: 20px 0;
+}
+
+.marketing-rank-container p{
+	font-size: 16px;
+	color: #666;
+	margin-top: 0;
+}
+
+.markiting-list{
+	margin: 50px 0;
+}
+
+
+
+
+
+.multi-srv-box{
+	padding: 20px;
+	border: 1px solid lightgrey;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.multi-srv-box h2{
+	font-size: 20px;
+	font-weight: 300;
+	padding-bottom: 10px;
+
+}
+
+.multi-srv-box .muti-srv-nav {
+	background: #F5F7F9;
+	border-bottom: 1px solid lightgrey;
+	padding-left: 25px;
+	padding-right: 10px;
+	max-width: 200px;
+	margin-bottom: 30px;
+}
+
+.multi-srv-box .muti-srv-nav ul{
+	border: none;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.multi-srv-box .muti-srv-nav ul li{
+	margin: 10px 0;
+}
+.multi-srv-box .muti-srv-nav ul li a{
+	font-size: 14px;
+	font-weight: 600;
+	padding-right: 10px;
+	display: block;
+	color: grey;
+}
+.multi-srv-box .muti-srv-nav ul li a.active{
+	color: #333;
+	border-bottom: 1px solid #333;
+}
+
+.multi-srv-box .multi-srv-content table tr td{
+	font-size: 14px;
+	color: grey;
+}
+
+
+.multi-srv-box .multi-srv-content table tr td:last-child{
+	color: #333;
+	font-weight: bold;
+	background: #F5F7F9;
+}
+
+
+
+
+
+
+
+
+
+.marketing-rank-rule-table{
+	border-top: 1px solid lightgrey;
+	padding: 10px ;
+	margin-bottom: 100px;
+}
+
+.marketing-rank-rule-table table thead tr th{
+	font-weight: 300;
+	font-size: 14px;
+	background: #F5F5F5;
+	padding: 10px 20px;
+	border-right: 1px solid #eee;
+}
+
+.marketing-rank-rule-table table tbody tr td{
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 300;
+	border-top: none;
+
+}
+
+.marketing-rank-rule-table table tbody tr td:first-child{
+	text-align: left;
+	padding-top: 5px;
+}
+.marketing-rank-rule-table table tbody tr td:first-child span{
+	padding-top: 10px;
+}
+.marketing-rank-rule-table table tbody tr td img{
+	margin-right: 20px;
+}
+
+
+.marketing-rank-rule-table table tbody tr td .users-rank{
+	background: #fff;
+    border: 1px solid #42a1d0;
+    padding-right: 5px;
+    display: flex;
+    border-radius: 3px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.marketing-rank-rule-table table tbody tr td .users-rank i {
+    background: #43a2d2;
+    color: #fff;
+    padding: 4px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575px){
+
+
+.marketing-rank-container h1{
+	font-size: 22px;
+	margin: 10px 0;
+}
+
+.marketing-rank-container p{
+	font-size: 14px;
+
+}
+
+
+
+.multi-srv-box .muti-srv-nav {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 100%;
+}
+.multi-srv-box h2{
+	font-size: 17px !important;
+}
+.multi-srv-box .multi-srv-content table tr td{
+	font-size: 13px;
+}
+.multi-srv-box{
+	padding: 10px;
+
+}
+
+
+}

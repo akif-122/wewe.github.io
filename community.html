@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wewe</title>
+
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+
+	<!-- FONTAWESOME  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome/css/all.css"> -->
+
+
+	<!-- CUSTOM CSS  -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/community.css">
+
+	<style>
+
+</style>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<!-- ADDRESS BOOK SIDE -->
+		<div class="address-book ">
+
+			<div class="address-book-header d-flex justify-content-between align-items-center">
+				<div class="">
+					<h1><i class="fa fa-address-book mr-2"></i> My address Book</h1>
+				</div>
+
+				<div class="address-close">
+					<i class="fa fa-times"></i>
+				</div>
+
+			</div>
+
+			<div class="address-book-search">
+
+				<div class="book-search-container">
+					<i class="fa fa-search"></i>
+					<input type="search" placeholder="Search in your list..."> 
+				</div>
+
+				<div class="book-create-list d-flex justify-content-between align-items-center">
+					<h4>Create List</h4>
+
+					<div>
+						<a href="">Create <i class="fa fa-plus"></i></a>
+					</div>
+				</div>
+
+
+			</div>
+
+
+
+			<div class="list-content text-center">
+				<i class="fa fa-address-book-o"></i>
+				<p>You have no contacts in your lists.</p>
+			</div>
+
+		</div>
+
+		<!-- ADDRESS BOOK SIDE  END-->
+		<!-- TOP BAR START -->
+		<section class="top-bar">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+
+				<button class=" navbar-toggler toggle">
+					<span class="opener fa fa-bars"></span>
+					<span class="closer fa fa-times d-none"></span>
+				</button>
+				<a href="" class="navbar-brand mx-auto">
+					<img src="assets/img/logo.png" alt="" />
+				</a>
+
+				<div class="top-text-container d-lg-flex flex-nowrap mx-auto d-none">
+
+					<div class="top-text">
+						<span>S.Time</span>
+						<h5 class="">14:50</h5>
+					</div>
+
+					<div class="top-text">
+						<span>WEWE/BTC</span>
+						<h5 class="">0.00003051 BTC</h5>
+					</div>
+
+					<div class="top-text">
+						<span>WEWE/EURO</span>
+						<h5 class="">€1.30</h5>
+					</div>
+
+					<div class="top-text">
+						<span>BTC/EURO</span>
+						<h5 class="">€42568.29</h5>
+					</div>
+
+					<div class="top-text">
+						<span>WEWEX/EURO</span>
+						<h5 class="">1</h5>
+					</div>
+
+				</div>
+
+				<div class="ml-auto top-right d-none d-lg-flex">
+					<ul class="navbar-nav ">
+						<li>
+							<a href=""><i class="fa fa-link"></i></a>
+
+						</li>
+						<li><a href=""><i class="fa fa-telegram"></i></a></li>
+						<li><a href=""><i class="fa fa-address-book"></i></a></li>
+						<li><a href=""><i class="fa fa-bell"></i></a></li>
+
+						<li class="user-active">
+							<a href="#" class=" d-flex">
+									<div  class="mr-2 user">
+										<i class="fa fa-user"></i>
+									</div>
+									<div>
+										<span>Name</span><br />
+										<span>lais</span>
+									</div>
+										
+								
+							</a>
+
+							<div class="user-setting">
+									<p>Your rank : <b>#0</b></p>
+								<ul>
+									<li><a href=""><i class="fa fa-cog mr-2"></i> Settings</a></li>
+									<li><a href=""><i class="fa fa-sign-out mr-2"></i> Sign Out</a></li>
+									
+
+								</ul>
+							</div>
+
+
+
+						</li>
+					</ul>
+				</div>
+
+
+
+
+			</nav>
+		</section>
+		<!-- TOP BAR START -->
+
+
+
+
+
+		<!-- CONTENT SECTION START -->
+		<section class="content">
+				
+			<!-- SIDE BAR SECTION START -->
+			<section class="sidebar">
+
+				<div class="user-detail-side d-lg-none">
+					<div class="user-side-text d-flex justify-content-between align-items-center  px-3">
+						<div class="userleft">
+							<p>Name</p>
+							<span>lsioae</span>
+						</div>
+
+						<div class="user-right">
+							<i class="fa fa-angle-down"></i>
+						</div>
+
+
+					</div>
+					<div class="user-setting-side" >
+						<ul class="list-unstyled d-flex justify-content-between">
+							<li><a href=""><i class="fa fa-link"></i></a></li>
+							<li><a href=""><i class="fa fa-cog"></i></a></li>
+							<li><a href="" class="d-flex align-items-center"><i class="fa fa-sign-out mr-3"></i> <span>Sign Out</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="navbar p-0">
+					<div class=" w-100 p-0">
+						<ul class=" navbar-nav m-0">
+							<li><a href="index.html" class="active"><i class="fa fa-home mr-2"></i> Dashboard</a></li>
+							<li><a href="wallet.html"><i class="fa fa-usd mr-2"></i> my wallet</a></li>
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-braille mr-3"></i> lauchpad <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a class="d-block" href="launch project.html">Project</a>
+									<a class="d-block" href="launch history.html">History</a>
+								</div>
+							</li>
+
+							<li><a href="billboard.html"><i class="fa fa-line-chart mr-2"></i> billboard</a></li>
+							<li><a href="#" class="address-opener"><i class="fa fa-address-book mr-2"></i> Address Book</a></li>
+
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Parner</span>	
+							</div>
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-cloud mr-3"></i> Cloud Minting <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="cloud dashboard.html">Dashboard</a>
+									<a href="cloud purchase.html">purchase</a>
+									<a href="cloud history.html">Product Hisory</a>
+								</div>
+							</li>
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Shop</span>	
+							</div>
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-shopping-cart mr-3"></i> My Shop<i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="shop product.html">Products</a>
+									<a href="shop purchase history.html">purchase history</a>
+									<a href="shop pay.html">pay dues</a>
+									<a href="shop pin.html">my pin codes</a>
+									<a href="shop sub.html">my subscriptions</a>
+									<a href="shop member fee.html">member activation fees</a>
+									<a href="shop invoice.html">my invoice</a>
+								</div>
+							</li>
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Your community</span>	
+							</div>
+
+							<li>
+								<a href="community.html"><i class="fa fa-users mr-3"></i> Community </a>
+							</li>
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Report</span>	
+							</div>
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-th mr-3"></i> My business <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="business history.html">History</a>
+									
+								</div>
+							</li>
+						</ul>
+
+						<ul class="navbar-nav">
+
+							<div class="list-heading">
+								<span >Other</span>	
+							</div>
+
+							<li><a href="callendar.html"><i class="fa fa-calendar mr-2"></i> Training Calendar</a></li>
+
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-question-circle-o mr-3"></i> Support <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="support new ticket.html">New ticket</a>
+									<a href="support my ticket.html">My Tickets</a>
+									
+								</div>
+							</li>	
+
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown" class="d-flex justify-content-between align-items-center"><i class="fa fa-bar-chart mr-3"></i> Marketing Tools <i class="fa fa-angle-down ml-auto arrow"></i></a>
+
+								<div class="dropdown-menu">
+									<a href="marketing document.html">Documents</a>
+									<a href="marketing rank rule.html">rank rules</a>
+									<a href="marketing refferal.html">mobile node Refferal</a>
+									
+								</div>
+							</li>
+
+							<li><a href="news.html"><i class="fa fa-newspaper-o mr-2"></i> News</a></li>
+
+
+						</ul>
+
+
+					</div>
+
+					
+
+
+				</div>
+			</section>
+			<!-- SIDE BAR SECTION END -->
+
+
+			<!-- MAIN-CONTENT SECTION START -->
+			<section class="main-content " 	>
+
+				<div class="wallet-header d-flex justify-content-between align-items-center flex-wrap">
+					<div class="wallet-header-left">
+						<h3>Community</h3>
+					</div>
+
+					<div class="wallet-right d-flex flex-wrap">
+						<a href=""><i class="fa fa-question"></i></a>
+					</div>
+				</div>
+
+
+				<div class="community-section">
+
+
+
+
+				<!-- WALLET HISTORY START -->
+				<div class="wallet-history">
+
+					<div class="wallet-history-nav">
+						 <ul class="nav nav-tabs">
+						    <li><a class="active" data-toggle="tab" href="#home">My Network</a></li>
+						    <li><a data-toggle="tab" href="#menu1">first line</a></li>
+						   
+						  </ul>
+					</div>
+
+					<div class="wallet-history-text community-container px-4">
+						 <div class="tab-content ">
+						    <div id="home" class="tab-pane  active ">
+
+						    	<h2>Unilevel tree view</h2>
+
+						     	<div class="row">
+						     		<div class="col-md-7 user-tree-main">
+
+						     			<div >
+
+						     				<div class="user-tree-container d-flex">
+							     				<div class="usertree-left d-flex justify-content-center align-items-center">
+							     					<div>
+							     						
+							     					</div>
+							     				</div>
+
+
+							     				<div class="usertree-text d-flex justify-content-between align-items-center">
+							     					<h3>Name</h3>
+							     					<span>0WEWEX</span>
+							     				</div>
+
+
+							     				<div class="usertree-right d-flex justify-content-center align-items-center">
+							     					<div>
+							     						<span>0</span>
+							     					</div>
+							     				</div>
+
+							     			</div>
+
+
+							     			<div class="usertree-btm-text">
+							     				<p>Click to expand the tree and show all users in your network</p>
+							     				<img class="usertree-img" src="assets/img/arrow.png" alt="">
+							     			</div>
+
+
+
+
+						     			</div>
+							     		
+						     		</div>
+
+
+						     		<div class="col-md-5">
+						     			<div class="community-profile">
+
+						     				<div class="community-profile-img">
+						     					<img src="assets/img/user2.png" width="100" alt="">
+						     				</div>
+
+						     				<h2>Name</h2>
+
+
+						     				<div class="community-user-rank-container d-flex flex-wrap">
+						     					<div class="user-rank d-flex ">
+
+						     						<div class="user-icon">
+						     							<i class="fa fa-trophy"></i>
+						     						</div>
+
+						     						<div class="user-rank-text">
+						     							<h3>Rank</h3>
+						     							<span>#0</span>
+						     						</div>
+
+						     					</div>
+
+						     					<div class="user-rank d-flex ">
+
+						     						<div class="user-icon">
+						     							<i class="fa fa-database"></i>
+						     						</div>
+
+						     						<div class="user-rank-text">
+						     							<h3>Rank</h3>
+						     							<span>#0</span>
+						     						</div>
+
+						     					</div>
+
+						     					<div class="user-rank d-flex ">
+
+						     						<div class="user-icon">
+						     							<i class="fa fa-shopping-cart"></i>
+						     						</div>
+
+						     						<div class="user-rank-text">
+						     							<h3>Rank</h3>
+						     							<span>#0</span>
+						     						</div>
+
+						     					</div>
+
+
+						     				</div>
+
+
+						     				
+						     			</div>
+						     		</div>
+
+
+
+
+
+
+
+						     	</div>
+						    </div>
+						  
+					    </div>
+					</div>
+
+				</div>
+				<!-- WALLET HISTORY END -->
+					
+				</div>
+
+
+				<!-- MEMBSER SEARCH SECTION START -->
+				<div class="member-search  text-center">
+					 <div class="member-search-content">
+					 	<h3>Search in your membership tree</h3>
+					 	<div class="search-input">
+						 	<input type="search" placeholder="Search by WEWE ID or by username ..">
+					 		
+					 	</div>
+
+					 	<button>Search <i class="fa fa-search ml-4"></i></button>
+
+					 </div>
+				</div>
+				<!-- MEMBSER SEARCH SECTION END -->
+
+
+				<!-- REFFERAL LEVEL START -->
+				<div class="refferal-level">
+					<h3>WEWE Referral levels</h3>
+					<div class="refferal-content text-center">
+						<p>The total of users in your levels</p>
+						<h6>0 users</h6>
+						<div>
+							<span>1</span>
+						</div>
+
+					</div>
+				</div>
+				<!-- REFFERAL LEVEL END -->
+
+				<!-- LEVEL OVERVIEW SECTION START -->
+				<div class="level-overview px-4">
+					<h3>LEVEL 1 OVERVIEW</h3>
+
+					<p>You have 0 users in this level , with a total balance of: 0.</p>
+
+					<div class="row level-table-container">
+						<div class="col-md-7">
+							<p class="text-right">ALL Amounts are in <b>WEWEX</b></p>
+
+							<div class="level-table">
+								<h4>USERS IN LEVEL 1</h4>
+
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th>User</th>
+												<th>Rank</th>
+												<th>User Purchase</th>
+												<th>Best leg</th>
+												<th>Other Teams</th>
+											</tr>
+										</thead>
+									</table>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-5 lavel-pur">
+							<h4>PURCHASED PLANS IN THIS LEVEL</h4>
+						</div>
+
+					</div>
+
+				</div>
+				<!-- LEVEL OVERVIEW SECTION END -->
+
+
+
+
+				
+			</section>
+			<!-- MAIN-CONTENT SECTION END -->
+
+		</section>
+		<!-- CONTENT SECTION END -->
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<!-- JQUERY  -->
+	<script type="text/javascript" src="assets/vendor/bootstrap/js/jquery.js"></script>
+	<!-- BOOTSTRAP -->
+	<script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="assets/js/app.js"></script>
+
+
+	<!-- Chart code -->
+<script>
+
+</script>
+
+</body>
+</html>

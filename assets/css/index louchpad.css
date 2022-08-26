@@ -1,0 +1,398 @@
+.index-louchpad{
+	margin-top: 20px;
+}
+
+.index-lounch-nav ul li{
+	margin-bottom: 15px;
+}
+
+.index-lounch-nav ul li a{
+
+	border: 2px solid transparent;
+	border-radius: 5px;
+	display: block;
+	box-shadow: 0px 0px 12px -4px #00000057;
+	position: relative;
+	z-index: 100;
+	color: grey;
+}
+
+.index-lounch-nav ul li a.active{
+
+	color: #0C6E9F;
+	border: 2px solid #0C6E9F;
+
+}
+.louch-nav-text{
+	padding: 15px 10px;
+	overflow: hidden;
+	border-radius: 3px;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+}
+.index-lounch-nav ul li a:after{
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	right: -20px;
+	transform: translate(-50% , -50%) rotate(45deg);
+	background: transparent;
+	z-index: -10;
+}
+.index-lounch-nav ul li a.active:after{
+	background: #0C6E9F;
+
+}
+.index-lounch-nav ul li a h4{
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.index-lounch-nav ul li a.active h4{
+	font-size: 16px;
+}
+.index-lounch-nav ul li a span{
+	font-size: 13px;
+}
+
+.index-lounch-nav ul li a p{
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+.index-lounchpad-content{
+	height: 100%;
+    padding: 8px 22px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px -6px #0000008c;
+}
+
+.index-lounchpad-content .index-louch-content-header h3{
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.index-lounchpad-content .index-louch-content-header span{
+	font-size: 13px;
+	font-weight: 600;
+	color: #0C6E9F;
+}
+
+.index-lounchpad-content .index-louch-content-header p{
+	font-size: 13px;
+	margin: 10px 0;
+}
+
+.index-lounchpad-content .index-louch-content-header  img{
+	width: 200px;
+}
+
+
+
+
+
+.lyo-card{
+	    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 13px -5px #b7b7b7;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.lyo-card .lyo-card-text {
+	padding: 10px;
+}
+.lyo-card .lyo-card-text  h5{
+	font-size: 14px;
+	font-weight: 300;
+	color: grey;
+}
+.lyo-card .lyo-card-text h4{
+	font-size: 17px;
+	font-weight: 600;
+	color: #0C6E9F;
+	margin: 10px 0;
+}
+.lyo-card  .lyo-card-btns{
+	border-top: 1px solid rgba(0,0,0,0.05);
+}
+.lyo-card  .lyo-card-btns a{
+	font-size: 12px;
+	border-right: 1px solid lightgrey;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+}
+.lyo-card  .lyo-card-btns a:hover{
+	background: #CEE9F1;
+}
+.lyo-card  .lyo-card-btns a:last-child{
+	border: 1px solid transparent;
+}
+
+
+
+
+
+
+
+
+.lyo-phase-card{
+	    padding: 28px 22px;
+    /* height: 428px; */
+    background: linear-gradient(0deg, #002c4f, #49b6ec 80%);
+    color: #fff;
+    border-radius: 6px;
+    /* width: 370px; */
+    margin: 30px 15px;
+    position: relative;
+    overflow: hidden;
+    /* margin: 10px auto; */
+    /*min-width: 280px;*/
+    color: #fff;
+    z-index: 10;
+}
+
+.lyo-phase-card:after {
+    content: '';
+    width: 100%;
+    height: 14px;
+    background: #337ab7;
+    position: absolute;
+    top: -33px;
+    right: -58px;
+    transform: rotateZ(
+24deg);
+    box-shadow: 4px 4px 12px #5f93afa1;
+    z-index: -1;
+}
+.lyo-phase-card .lyo-phase-card-header{
+	margin-top: 20px;
+}
+.lyo-phase-card .lyo-phase-card-header h6{
+	font-size: 14px;
+	font-weight: 600;
+}
+.lyo-phase-card .lyo-phase-card-header h3{
+	font-size: 18px;
+	font-weight: 300;
+}
+.lyo-phase-card .lyo-phase-card-header span{
+	display: inline-block;
+	padding: 2px 5px;
+	border-radius: 2px;
+	font-size: 12px;
+	font-weight: 500;
+	background: #327AB6;
+}
+
+
+.token-issued{
+	padding: 40px 0;
+}
+.token-issued p{
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+.token-issued h2{
+	font-size: 28px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.token-issued span{
+	display: inline-block;
+	font-size: 14px;
+}
+
+.lyo-price {
+	margin: 10px 0;
+}
+
+.lyo-price .lyo-price-box{
+	border-top: 1px solid rgba(255,255,255,0.3);
+	padding: 20px 0;
+}
+
+.lyo-price .lyo-price-box p{
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.lyo-price .lyo-price-box h4{
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.lyo-buy-convert-btns{
+	overflow: hidden;
+}
+.lyo-buy-convert-btns a{
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	color: #fff;
+	background: #327AB6;
+	padding: 13px 10px;
+	border-radius: 5px;
+	border-left: 4px solid #49B6EC;
+	position: relative;
+	z-index: 1;
+}
+.lyo-buy-convert-btns  h4{
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: 600;
+	color: #333;
+	position: relative;
+}
+.lyo-buy-convert-btns  h4:after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: grey;
+	position: absolute;
+	left: 60%;
+	top: 50%;
+
+}
+.lyo-buy-convert-btns  h4:before{
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: grey;
+	position: absolute;
+	right: 60%;
+	top: 50%;
+
+}
+.lyo-buy-convert-btns a:hover{
+	letter-spacing: 1px;
+}
+.lyo-buy-convert-btns a i{
+	font-size: 18px;
+}
+.lyo-buy-convert-btns a .fa-angle-double-right{
+	display: inline-block;
+	margin-left: auto;
+	float: right;
+	font-size: 30px;
+	line-height: 70%;
+}
+
+.lyo-buy-convert-btns  .stars i{
+	z-index: -1;
+	opacity: 0.3;
+	text-shadow: 0 0 10px rgba(255,255,255, 0.5)
+}
+.lyo-buy-convert-btns  .stars i:first-child{
+	position: absolute;
+	left: 25%;
+	bottom: 10px;
+}
+.lyo-buy-convert-btns  .stars i:nth-child(2){
+	position: absolute;
+	left: 50%;
+	top: 10px;
+}
+
+.lyo-buy-convert-btns  .stars i:nth-child(3){
+	position: absolute;
+	left: 75%;
+	bottom: 10px;
+}
+
+
+
+
+
+
+.index-lauchpad-text-area{
+	border-top: 2px solid lightgrey;
+	margin-top: 40px;
+	padding: 10px;
+}
+
+.index-lauchpad-text-area div{
+	margin-left: 10px;
+}
+
+.index-lauchpad-text-area div p{
+	font-size: 12px;
+	margin: 10px 0;
+}
+.index-lauchpad-text-area div b{
+	font-size: 12px;
+}
+
+
+@media screen and (max-width: 575px){
+
+
+
+
+
+.lyo-phase-card{
+
+	margin-left: 0;
+}
+
+.lyo-phase-card .lyo-phase-card-header{
+	margin-top: 0px;
+}
+.lyo-phase-card .lyo-phase-card-header h6{
+	font-size: 14px;
+	font-weight: 600;
+}
+.lyo-phase-card .lyo-phase-card-header h3{
+	font-size: 18px;
+	font-weight: 300;
+}
+.lyo-phase-card .lyo-phase-card-header span{
+	display: inline-block;
+	padding: 2px 5px;
+	border-radius: 2px;
+	font-size: 12px;
+	font-weight: 500;
+	background: #327AB6;
+}
+
+
+.token-issued{
+	padding: 20px 0;
+}
+.token-issued p{
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+.token-issued h2{
+	font-size: 24px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+.token-issued span{
+	display: inline-block;
+	font-size: 13px;
+}
+
+
+}

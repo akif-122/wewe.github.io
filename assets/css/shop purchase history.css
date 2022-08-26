@@ -1,0 +1,187 @@
+.wallet-header{
+	padding: 20px  10px 5px 10px ;
+	border-bottom: 1px solid lightgrey;
+}
+
+.wallet-header h3{
+	font-size: 20px;
+	font-weight: 200;
+	margin: 10px;
+	text-transform: uppercase;
+} 
+
+.wallet-header .wallet-right a{
+	padding: 4px 20px;
+	color: grey;
+	font-size: 15px;
+	border: 1px solid lightgrey;
+	display: inline-block;
+	margin: 3px;
+}
+.mobileBox-container{
+	margin-top: 50px;
+
+}
+
+.mobileBox-container .mobileBox{
+	padding: 10px;
+	border-radius: 5px;
+	width: 550px;
+	color: #fff;
+	background-color: #0c6e9f;
+    background-image: linear-gradient(45deg,black,transparent);
+}
+
+.mobileBox-container .mobileBox h2{
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px
+}
+
+.mobilebox-text:first-child{
+	border-right: 1px solid grey;
+}
+.mobilebox-text{
+	padding: 20px 0;
+}
+.mobilebox-text b{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.mobilebox-text p{
+	font-size: 13px;
+}
+
+.mobilebox-nav{
+	padding: 10px;
+	margin: 20px;
+	background: #F5F7F9;
+	border-bottom: 1px solid lightgrey;
+}
+.mobilebox-nav ul{
+	margin: 0;
+}
+.mobilebox-nav ul li a{
+	font-weight: 600;
+	font-size: 14px;
+	color: #333;
+	border-bottom: 1px solid grey;
+	margin: 5px;
+	display: inline-block;
+}
+
+.benifit-section h1{
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px;
+
+}
+
+.benifit-section .benifit-container .benifit-box{
+	padding: 10px 5px;
+	border-right: 1px solid lightgrey;
+	margin: 10px 5px;
+	flex-shrink: 1;
+	flex-grow: 1;
+}
+.benifit-section .benifit-container .benifit-box p{
+	font-size: 14px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.benifit-section .benifit-container .benifit-box b{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.history-table-container{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.history-table-container .table-header .left-side select{
+	display: inline-block;
+	width: 170px;
+	font-size: 12px;
+	padding: 3px;
+	margin-top: 10px;
+	border: 1px solid lightgrey;
+
+}
+
+.history-table-container .table-header .right-side input{
+	margin-top: 10px;
+	padding: 5px;
+	width: 300px;
+	font-size: 12px;
+	color: #999;
+	border: 1px solid lightgrey;
+
+}
+
+
+.history-table-container table th{
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	background: #0C6E9F;
+	padding:10px  20px;
+	text-transform: uppercase;
+}	
+
+.history-table-container table td{
+	font-size: 15px;
+	font-weight: 400;
+	padding:10px;
+
+}
+
+.no-data-table{
+	padding: 10px;
+	border-bottom: 1px solid darkblue;
+}
+
+
+.no-data-table p{
+	font-size: 14px;
+	color: grey;
+	margin: 20px 0;
+}
+
+.showing-row p{
+	font-size: 14px;
+	color: grey;
+	margin: 10px 0;
+	font-weight: 300;
+}
+
+
+
+@media screen and (max-width: 575px){
+.wallet-header h3{
+	font-size: 16px;
+	font-weight: 200;
+	margin: 10px;
+} 
+.history-table-container table th{
+	font-size: 13px;
+
+}	
+
+.history-table-container table td{
+	font-size: 13px;
+
+}
+
+.benifit-section .benifit-container .benifit-box{
+		width: 46%;
+		border: 1px solid lightgrey;
+		margin: 5px;
+	}
+
+}
+
+
+

@@ -1,0 +1,283 @@
+.cloud-dashboard-header{
+	margin-top: -10px;
+}
+.cloud-dashboard-header .cloud-header-text{
+	padding: 20px 30px;
+	background: url('../img/cloud-header-bg.png');
+	background-position: center ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cloud-dashboard-header .cloud-header-text h1{
+	font-size: 26px;
+	margin: 30px 0;
+}
+.cloud-dashboard-header .cloud-header-text h1 span{
+	border-radius: 5px;
+	padding: 0 5px;
+	font-weight: 400;
+	color: #002C4F;
+	background: #fff;
+}
+
+.cloud-dashboard-header .cloud-header-text h1 b{
+	border-radius: 4px;
+	color: #fff;
+	background: #002C4F;
+	padding: 0 5px;
+	font-weight: 600;
+}
+
+.cloud-dashboard-header .cloud-header-text p{
+	font-size: 20px;
+	color: #fff;
+}
+
+
+.cloud-dashboard-header .cloud-header-text h4{
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.cload-header-card{
+	padding: 10px ;
+	padding-right: 25px;
+	background: #0A547A;
+}
+
+.cards-container{
+	background: #DAE6EB;
+	border-radius: 5px;
+	overflow:hidden;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+.cards-container .cloud-card-header{
+	background: #fff;
+	padding: 15px;
+	box-shadow: 0 3px 10px -2px grey;
+
+}
+
+.cards-container .cloud-card-header h3{
+	font-size: 18px;
+	margin: 0;
+}
+
+.cards-container .cloud-header-card-text h4{
+	font-size: 18px;
+	color: #555;
+	margin: 20px;
+}
+
+.cards-container .cloud-header-card-text  .withdraw-btn{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	background: #0B577D;
+	padding: 8px 20px;
+}
+
+.cards-container .cloud-header-card-text  .withdraw-btn:hover{
+	background: #002C4F;
+}
+
+.cloud-header-coming{
+	border-radius: 5px;
+	padding: 20px;
+	background: #DAE6EB;
+	text-align: center;
+}
+
+.cloud-header-coming h5{
+	font-size: 15px;
+	font-weight:600;
+	margin: 0;
+	padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+.wallet-header{
+	margin-top: 25px;
+	padding: 10px 20px;
+	border-bottom: 1px solid grey;
+}
+
+.wallet-header h3{
+	font-size: 20px;
+	font-weight: 200;
+	text-transform: uppercase;
+} 
+
+.wallet-header .wallet-right a{
+	padding: 4px 20px;
+	color: grey;
+	font-size: 15px;
+	border: 1px solid grey;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+	background: #0A547A;
+}
+
+.wallet-header .wallet-right a:hover{
+	color: #333;
+	background: #fff;
+}
+
+
+.unit-slot-container{
+	padding: 40px 10px;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 40px;
+}
+
+.unit-slot-container .unit-slot{
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px dashed #e4e4e4;
+	background: #fff;
+	text-align: center;
+}
+.unit-slot-container .unit-slot p{
+	margin: 0;
+	font-size: 13px;
+	color: grey;
+
+}
+
+
+.slot-text i{
+	font-size: 50px;
+	color: grey;
+}
+
+.slot-text p{
+	font-size: 14px;
+	margin: 20px;
+	color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.history-table-container{
+	width: 100%;
+	margin: 30px 0;
+}
+
+.history-table-container .table-header .left-side select{
+	display: inline-block;
+	width: 170px;
+	font-size: 12px;
+	padding: 3px;
+	margin-top: 10px;
+	border: 1px solid lightgrey;
+
+}
+
+.history-table-container .table-header .right-side input{
+	margin-top: 10px;
+	padding: 5px;
+	width: 300px;
+	font-size: 12px;
+	color: #999;
+	border: 1px solid lightgrey;
+
+}
+
+
+.history-table-container table th{
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	background: #0C6E9F;
+	padding:10px  20px;
+	text-transform: uppercase;
+}	
+
+.history-table-container table td{
+	font-size: 15px;
+	font-weight: 400;
+	padding:10px;
+
+}
+
+.no-data-table{
+	padding: 10px;
+	border-bottom: 1px solid darkblue;
+}
+
+
+.no-data-table p{
+	font-size: 14px;
+	color: grey;
+	margin: 20px 0;
+}
+
+.showing-row p{
+	font-size: 14px;
+	color: grey;
+	margin: 10px 0;
+	font-weight: 300;
+}
+
+
+@media screen and (max-width: 1199px){
+
+.cloud-dashboard-header .cloud-header-text h1{
+	font-size: 20px;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 991px){
+
+.cload-header-card{
+	padding: 25px;
+}
+
+.cloud-dashboard-header .cloud-header-text h1{
+	font-size: 26px;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 575px){
+
+.cloud-dashboard-header .cloud-header-text h1{
+	font-size: 18px;
+}
+
+.cards-container .cloud-card-header h3{
+	font-size: 16px;
+	margin: 0;
+}
+
+}

@@ -1,0 +1,135 @@
+.member-header{
+	padding: 20px 30px; ;
+	color: #fff;
+	background: #004984;
+}
+
+.member-header h1{
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.member-header-text {
+	margin: 20px 0;
+	position: relative;
+
+}
+
+.member-header-text:after{
+	content: '';
+	position: absolute;
+	right: 0px;
+	width: 1px;
+	height: 90%;
+	background: #444;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+.member-header-text  h4{
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 10px;
+	border-left: 2px solid #fff;
+}
+
+.member-header-text  b{
+	display: inline-block;
+	font-size: 14px;
+    padding: 4px 24px;
+    background: rgb(255 255 255 / 42%);
+    border-radius: 6px;
+    text-transform: uppercase;
+    margin: 16px 8px;
+    box-shadow: 0 0 12px -4px #000;
+}
+
+.member-header-text p{
+	font-size: 13px;
+	opacity: 0.8;
+}
+
+.member-box{
+    background: rgb(255 255 255 / 35%);
+    box-shadow: 6px 6px 12px -5px #000;
+    border-radius: 7px;
+	margin: 20px 0;
+
+}
+
+.member-box h4{
+	font-size: 16px;
+	display: block;
+    text-align: center;
+    font-weight: 400;
+    padding: 14px 8px;
+}
+
+.member-box b{
+	display: block;
+    text-align: center;
+    font-size: 36px;
+    color: #000;
+}
+
+.member-box p{
+	font-size: 13px;
+	padding: 6px 17px;
+	margin: 20px 0;
+}
+
+
+.member-pay{
+	background: #001729;
+	padding: 20px;
+	color: #fff;
+}
+
+.member-pay h6{
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.member-pay a{
+	    padding: 6px 31px;
+    background: #fff !important;
+    color: #000 !important;
+    border: 2px solid #5989af !important;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+
+.member-text{
+	margin: 40px 0;
+	margin-bottom: 80px;
+	padding: 20px;
+	position: relative;
+	background-image: url(../img/fees_licence_bg.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 682px;
+    background-repeat: no-repeat;
+}
+
+.member-text h3{
+	font-size: 22px;
+	font-weight: 300;
+	margin-bottom: 10px;
+
+}
+
+.member-text p{
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+.member-text .member-content{
+	max-width: 560px;
+
+}

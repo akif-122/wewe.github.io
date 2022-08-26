@@ -1,0 +1,194 @@
+.launch-project{
+	background: #3383A7;
+	color: #fff;
+	padding-top: 40px;
+
+}
+.launch-project .launch-heading{
+	margin: 20px;
+	margin-bottom: 40px;
+}
+.launch-project .launch-heading h1{
+	font-size: 32px;
+	font-weight: 500;
+	margin: 20px 0;
+}
+
+.launch-project .launch-heading p{
+	font-size: 13px;
+}
+.launch-project .launch-project-detail-container{
+	padding: 20px 0;
+	background: #67A8BE;
+}
+
+.launch-project-detail-container .launch-project-detail{
+	flex-basis: 20%;
+	margin: 10px 20px;
+}
+.launch-project-detail-container .launch-project-detail h4{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.launch-project-detail-container .launch-project-detail span{
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+.project-section{
+	margin-top: 60px;
+	padding: 20px;
+}
+
+.project-section .project-section-nav{
+	padding: 10px 0;
+}
+
+.project-section .project-section-nav ul{
+	border: none;
+}
+
+.project-section .project-section-nav ul li a{
+	padding: 12px 25px;
+	font-size: 14px;
+	font-weight: 600;
+	border-bottom: 1px solid #eee;
+
+
+}
+
+.project-section .project-section-nav ul li a:hover{
+	background: #F5F7F9;
+}
+
+.project-section .project-section-nav ul li a.active{
+	color: darkblue;
+	background: #A8DCF6;
+	border-bottom: 1px solid darkblue;
+}
+
+.project-section-tabs{
+	margin: 50px 0;
+}
+
+
+.project-section-tabs .project-card{
+	margin: 15px auto;
+    min-width: 300px;
+    max-width: 310px;
+    box-shadow: 1px 1px 14px #cccccc26;
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.project-section-tabs .project-card:hover{
+	transform: scale(1.2);
+}
+
+.project-section-tabs .project-card label{
+	color: #fff;
+	background: #337AB7;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+.project-section-tabs .project-card img{
+	width: 100%;
+}
+
+.project-section-tabs .project-card h5{
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #0C6E9F;
+}
+.card-br-text{
+	margin: 20px 0;
+}
+.card-br-text{
+	padding: 5px 10px;
+	border-left: 3px solid #0C6E9F;
+	font-size: 12px;
+	color: grey;
+}
+
+.card-br-text  span.text-bold{
+	font-weight: bold;
+}
+
+.card-progress-section span{
+	font-size: 13px;
+	color: #0C6E9F;
+}
+.card-progress-section .progress-bar-container{
+	background: #fff;
+    width: 100%;
+    height: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #50b4df94;
+}
+.card-progress-section .progress-bar-container {
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+.card-progress-section .progress-bar-container .progress-bar{
+	width: 7.4%;
+	background-image: linear-gradient(
+	35deg, #6fb6ec, #12658e 68%);
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: #eef7fb;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar-container .progress-bar span{
+	font-size: 9px !important;
+	color: #fff;
+}
+
+.card-progress-section .progress-bar-container .progress-bar.progress-bar2{
+	width: 8.4%;
+}
+
+.empty-card {
+	margin-top: 50px;
+}
+
+.empty-card h2{
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: 500;
+}
+.empty-card p{
+	font-size: 14px;
+	color: grey;
+}
+
+@media screen and (max-width: 575px){
+.project-section .project-section-nav ul{
+	border: none;
+	flex-direction: column;
+}
+.project-section .project-section-nav ul li a{
+display: block !important;
+text-align: center;
+
+
+}
+}

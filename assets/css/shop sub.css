@@ -1,0 +1,121 @@
+.wallet-header{
+	padding: 20px  10px 5px 10px ;
+	border-bottom: 1px solid lightgrey;
+}
+
+.wallet-header h3{
+	font-size: 20px;
+	font-weight: 200;
+	margin: 10px;
+	text-transform: uppercase;
+} 
+
+.wallet-header .wallet-right a{
+	padding: 4px 20px;
+	color: grey;
+	font-size: 15px;
+	border: 1px solid lightgrey;
+	display: inline-block;
+	margin: 3px;
+}
+
+.sub-container{
+	margin: 60px 0; 
+}
+.sub-container .sub-card{
+	border: 2px solid #AAC3DC;
+	border-top-left-radius: 20px;
+	overflow: hidden; 
+	background: #F5F7F9;
+	margin-bottom: 15px;
+}
+.sub-container .sub-card .sub-card-header{
+	padding: 20px;
+	background: #AAC3DC;
+	text-align: center;
+}
+
+.sub-container .sub-card .sub-card-header h3{
+	font-size: 24px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.sub-container .sub-card .sub-card-status{
+	text-align: center;
+	padding: 15px 0;
+	border-bottom: 1px solid lightgrey;
+}
+
+.sub-container .sub-card .sub-card-status p{
+	font-size: 15px;
+	font-weight: 600;
+	color: #6D6D6D;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+.sub-container .sub-card .sub-card-status h2{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	background: #6D6D6D;
+	padding: 3px 8px;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+.sub-card-text{
+	padding: 40px 20px;
+}
+
+
+.sub-card-text p{
+	font-size: 17px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.sub-card-footer{
+	padding: 30px 10px;
+	background: #AAC3DC;
+}
+
+.sub-card-footer a{
+	display: inline-block;
+	font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 18px;
+    text-decoration: none !important;
+    color: #fff;
+    background: #3f5973;
+    border: 1px solid #1d3044;
+    cursor: pointer;: 
+}
+
+
+.sub-card-footer a:hover{
+	background: #172B3E;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 575px){
+.wallet-header h3{
+	font-size: 16px;
+	font-weight: 200;
+	margin: 10px;
+} 
+
+
+
+}
+
+
+
